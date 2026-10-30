@@ -1,0 +1,56 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121820; /* Matches the dark theme background */
+}
+
+/* Navbar Container */
+.navbar {
+    background-color: #1a222d;
+    width: 100%;
+    padding: 20px 40px;
+    border-bottom: 1px solid #232d3f;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.nav-logo {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation Links List */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 35px; /* Spacing between links */
+}
+
+/* Links Styling */
+.nav-link {
+    color: #c5cdd6;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
